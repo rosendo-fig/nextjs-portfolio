@@ -85,14 +85,22 @@ By using these methods and staying transparent, our team stayed grounded, produc
 <br>
 <br>
 
-<div style="display: flex; gap: 1rem;">
+<div class="blog-flex-responsive" style="display: flex; gap: 1rem; flex-direction: column;">
   <div style="flex: 1;">
     <img src="/images/blog/brand-guidelines.png" alt="Saga V Brand Guidelines book displaying the cover, scalable typography, and the brand color palette." />
   </div>
   <div style="flex: 1;">
-    <img src="/images/blog/packaging.png" alt="Saga V ‘The Sun (Sweet)’ package showcasing consistent brand design and visual identity." />
+    <img src="/images/blog/packaging.png" alt="Saga V 'The Sun (Sweet)' package showcasing consistent brand design and visual identity." />
   </div>
 </div>
+
+<style>
+@media (min-width: 768px) {
+  .blog-flex-responsive {
+    flex-direction: row !important;
+  }
+}
+</style>
 <br>
 
 ## V. Manifesting Results While Nurturing Potential

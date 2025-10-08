@@ -692,3 +692,14 @@
 .fullmenuitem {
 	writing-mode: vertical-rl;
 }
+
+// Blog post images max width on mobile
+@media (max-width: 767px) {
+	.blog-content img,
+	[class*="post"] img,
+	article img {
+		max-width: 475px;
+		height: auto;
+	}
+}
+
